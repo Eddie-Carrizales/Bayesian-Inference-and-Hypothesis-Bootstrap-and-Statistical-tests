@@ -2,7 +2,7 @@
 
 ## Chi-Square Tests <br />
 Given: <br />
-![Image1]()
+![Given1](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Given1.png)
 
 
 • And has a known standard deviation of 2.0049 <br />
@@ -10,16 +10,16 @@ Given: <br />
 
 Find: <br />
 • What is the chi-square test for this dataset? <br />
-![Image1]()
+![Result1](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results1.png)
 
-##The Sign Test <br />
+## The Sign Test <br />
 Given: <br />
 • The file Raw.txt <br />
 • And a target median of 400 <br />
 
 Find: <br />
 • Perform a sign test <br />
-![Image1]()
+![Results2](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results2.png)
 
 ## Wilcoxian Signed Rank Test <br />
 Given: <br />
@@ -41,7 +41,7 @@ An example of the Wilcoxon Sign test is as follows: <br />
 • Summate only the positive ranks. <br />
 • If the positive ranks is less than 19, then the test passes. <br />
 
-![Image1]()
+![Given2](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Given2.png)
 
 Find: <br />
 • Perform another Wilcoxon Sign Test on the dataset { 37.1, 37.3, 37.4, 37.5, 36.2, 35.9, 38.1, 38.2, 38.3, 39.5} <br />
@@ -49,7 +49,7 @@ Find: <br />
 • And the guess is 37. <br />
 • Show the values of alpha, the value of the Sign Test for the right-handed side, and calculate the sum of the positive ranks. <br />
 
-![Image1]()
+![Results3](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results3.png)
 
 ## Bootstrap <br />
 
@@ -62,7 +62,7 @@ Find: <br />
 • Yes, you should show all the possible values. <br />
 • Find the bootstrap estimator for the Median. <br />
 
-![Image1]()
+![Results4](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results4.png)
 
 ## Bayesian Inference <br />
 
@@ -76,13 +76,13 @@ Given: <br />
 • 𝜇=(40000+7000)2⁄ = 55000 <br />
 • 𝜏=(55000−40000) / 1.96 = 7653 <br />
 
-![Image1]()
+![Given3](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Given3.png)
 
 Find: <br />
 • Are the values of 𝜇𝑥 _and 𝜏𝑥 _correct? What values do you get? <br />
 • What is the Creditable Set? Show both the lower and upper bounds. <br />
 
-![Image1]()
+![Results5](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results5.png)
 
 ## Bayesian Hypothesis <br />
 Given: <br />
@@ -93,7 +93,7 @@ Given: <br />
 • A confidence of 95%(𝛼=0.05), and is a duality. <br />
 • Target values: for 𝐻0: {1000, 2400, 2500, 2600, 4000} <br />
 • 𝑃{𝐻0|𝑋=𝑥} = 𝑃{𝜃 − 𝜇𝑥 * 𝜏𝑥 ≥ 𝑇𝑎𝑟𝑔𝑒𝑡 − 𝜇𝑥 * 𝜏𝑥}= 1−Φ (𝑇𝑎𝑟𝑔𝑒𝑡−𝜇𝑥 * 𝜏𝑥) <br />
-• And 𝐻𝐴 is going to be the compliment of 𝐻0. <br />
+• And 𝐻𝐴 is going to be the complement of 𝐻0. <br />
 • 𝑃{𝐻𝐴|𝑋=𝑥}= Φ( 𝑇𝑎𝑟𝑔𝑒𝑡 − 𝜇𝑥 * 𝜏𝑥) <br />
 
 Find: <br />
@@ -103,4 +103,4 @@ Find: <br />
 • Upper bound of the credible set <br />
 • Which target values support 𝐻0_, and which support 𝐻𝐴? <br />
 
-![Image1]()
+![Results6](https://github.com/Eddie-Carrizales/Bayesian-Inference-and-Hypothesis-Bootstrap-and-Statistical-tests/blob/main/Images/Results6.png)
